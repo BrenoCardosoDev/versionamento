@@ -1,5 +1,5 @@
-# Versionamento com Git e GitHub[^3]
-
+# Versionamento com Git e GitHub
+  
 ## Definições
   * Versionamento: Gerenciamento de versões de algo (Ex.: código, script, documento etc.).
   * Git: Sistema de controle de versões distribuído.
