@@ -1,4 +1,4 @@
-# Versionamento com Git e GitHub
+# Versionamento com Git e GitHub[^3]
 
 ## Definições
   * Versionamento: Gerenciamento de versões de algo (Ex.: código, script, documento etc.).
@@ -21,7 +21,39 @@
 
 ## Download do Git
   * Windows: https://git-scm.com/download/win
-  * Ubuntu: https://git-scm.com/download/linux
+
+    _Obs.: Na instalação, deixe as opções "Git Bash Here" e “Git GUI Here” marcadas, em "Select Components"._
+  * Linux: https://git-scm.com/download/linux
   * MacOS: https://git-scm.com/download/mac
 
+## Configurando o Git
+``` Python 
+git config --list
+```
+``` Python 
+git config --global user.name "Nome Sobrenome"
+```
+``` Python
+git config --global user.email seuemail@email.com
+```
+``` Python
+git config --global init.defaultBranch main
+```
+
+## Repositório Git
+
+### Criando repositório local
+``` Python
+git init
+```
+
+### Conectando o repositório local com o repositório remoto
+```
+git remote add origin https://github.com/username/nome-do-repositorio.git
+```
+
+### Clonando repositório remoto
+``` Python
+git clone https://github.com/username/nome-do-repositorio
+```
 
